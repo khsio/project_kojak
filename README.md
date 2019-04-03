@@ -1,1 +1,19 @@
-# project_kojak
+# Shopper Behaviors Analysis
+This project is about exploring shopper behaviors and build a shopping cart recommender using Instacart data.
+
+## Introduction  
+In this project, I want to explore customer shopping behaviors by analyzing their pervious purchases and build a shopping cart recommender that could give them a tailored shopping experience for engagement.  
+
+I want to perform a [Shopper Behaviors Analysis](https://en.wikipedia.org/wiki/Consumer_behaviour) by analyzing shoppers purchase history and see if I could find patterns such as what kind of items customers like to purchase in different time of day/week, how often do people reorder the same product they purchased before and etc. And build a [recommender system](https://en.wikipedia.org/wiki/Recommender_system) using customer's reordered purchases and [cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity). 
+
+For complete write-up of this project, please go to my post on [medium]().
+
+## Project Design
+1. Perform Data Cleaning, merging different tables together and do Exploratory Data Analysis (EDA).  
+2. Analyze customer behaviors, generate insights and build data visualizations for storytelling.  
+3. Define a metric for model evaluation.  
+4. Lastly, create a shopping cart recommender system to recommend items to customers based on their purchase history.  
+
+## Getting Started
+* `notebooks` - My code for exploratory data analysis, data visualizations, recommender system and metirc calucation are in this folder.   
+* `presentation` - This is the deck that I used to present in [Metis](https://www.thisismetis.com/). For references, please refer to the reference page in my deck.
